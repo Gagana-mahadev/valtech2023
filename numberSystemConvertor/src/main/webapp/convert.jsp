@@ -6,6 +6,59 @@
 <meta charset="ISO-8859-1">
 <title>Number System Converter</title>
 <link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+.convert-bg {
+    background-color: #f0f0f0; /* Set your desired background color */
+}
+ 
+.convert-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.title {
+    font-size: 24px;
+    color: #333;
+}
+ 
+.form-group {
+    margin-bottom: 20px;
+}
+ 
+.label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+ 
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+ 
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #357abf; /* Set your desired button color */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+ 
+.btn:hover {
+    background-color: #246598; /* Button color on hover */
+}
+
+
+</style>
 </head>
 <body class="convert-bg">
 	<div class="container convert-container">

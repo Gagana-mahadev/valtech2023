@@ -12,7 +12,127 @@
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
 	rel="stylesheet">
 <style>
-    //Write your css here
+body {
+	background-color: #f7f7f7; /* Set your desired background color */
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+table, th, td {
+	border: 1px solid #ccc;
+}
+
+th, td {
+	padding: 10px;
+	text-align: center;
+}
+
+thead {
+	background-color: #357abf;
+	/* Set your desired table header background color */
+	color: #fff;
+}
+
+form {
+	display: flex;
+	justify-content: space-between;
+}
+
+input[type="submit"] {
+	padding: 10px;
+	background-color: #357abf; /* Set your desired button color */
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+	background-color: #246598; /* Button color on hover */
+}
+/* styles.css */
+body {background-co ... by Gagana CM 10:52GaganaCM /* styles.css */ 
+ 
+body {
+    background-color : #f7f7f7; /* Set your desired background color */
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+table, th, td {
+	border: 1px solid #ccc;
+}
+
+th, td {
+	padding: 10px;
+	text-align: center;
+}
+
+thead {
+	background-color: #357abf;
+	/* Set your desired table header background color */
+	color: #fff;
+}
+
+form {
+	display: flex;
+	justify-content: space-between;
+}
+
+input[type="submit"] {
+	padding: 10px;
+	background-color: #357abf; /* Set your desired button color */
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+	background-color: #246598; /* Button color on hover */
+}
+has
+ 
+context
+ 
+menu
+
+
+Compose
 </style>
 </head>
 <body>
