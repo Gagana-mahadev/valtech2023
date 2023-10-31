@@ -35,6 +35,8 @@ public class TextProcessing {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        
+       
  
         // Display the word counts
         for (Map.Entry<String, Integer> entry : wordCounts.entrySet()) {

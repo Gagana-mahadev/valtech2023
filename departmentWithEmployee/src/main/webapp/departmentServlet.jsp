@@ -67,8 +67,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
 	background-color: #246598; /* Button color on hover */
 }
-/* styles.css */
-body {background-co ... by Gagana CM 10:52GaganaCM /* styles.css */ 
+
  
 body {
     background-color : #f7f7f7; /* Set your desired background color */
@@ -125,14 +124,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
 	background-color: #246598; /* Button color on hover */
 }
-has
- 
-context
- 
-menu
 
-
-Compose
 </style>
 </head>
 <body>

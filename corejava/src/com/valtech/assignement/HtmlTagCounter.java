@@ -12,7 +12,7 @@ public class HtmlTagCounter {
  
 	public static void main(String[] args) throws IOException {
 		
-//String filePath = "C:/Users/Gagana.CM/eclipse-workspace/corejava/src/com/valtech/assignement/sample.html"; // Change this to your HTML file's path
+//String filePath = "C:/Users/Gagana.CM/eclipse-workspace/corejava/src/com/valtech/assignement/sample.html"; 
         
         Map<String, Integer> tagStartLine = new HashMap<>();
         Map<String, Integer> tagEndLine = new HashMap<>();

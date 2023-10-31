@@ -34,12 +34,12 @@ public class CatchyNumberFinder {
                 count = 1;
             }
         }
- 
+//System.out.println(number +" hello" +catchiness);
         return catchiness;
     }
  
     public static void main(String[] args) {
-        List<String> numbers = Arrays.asList("7777", "6666","11112222");
+        List<String> numbers = Arrays.asList("7777", "6666456","11112222");
         String catchyNumber = findCatchyNumber(numbers);
         System.out.println("Most catchy number: " + catchyNumber);
     }
