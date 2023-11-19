@@ -49,15 +49,15 @@ public class HibernateClient {
 		OrderSummary os=(OrderSummary) ses.load(OrderSummary.class, new OrderSummaryId(1,2));
 		System.out.println("Qty= "+os.getQuantity());
 		
-//		ses.persist(new Employee("Kruthik",LocalDate.of(2001, 2, 4),43105,'M',true));
+//		ses.persist(new Employee("Gagana",LocalDate.of(2001, 2, 4),43105,'M',true));
 		
 		//IDENTITY insert and then print , TABLE and SEQUENCE first print but not insert and hibernate does when needed 
-//		int id=(Integer) ses.save(new Employee("Kruthik",df.parse("04-03-2001"),43105,'M',true));
+//		int id=(Integer) ses.save(new Employee("Gagana",df.parse("04-03-2001"),43105,'M',true));
 //		System.out.println(id);
 //		
 //		Employee e=(Employee)ses.get(Employee.class,1);
 //		System.out.println(e.getClass().getName());
-//		e.setName("Kruthik B");
+//		e.setName("Gagana");
 //		
 //		ses.save(new Tx(1000));
 //		ses.save(new ChequeTx(2000,101,201));
@@ -67,7 +67,7 @@ public class HibernateClient {
 //		ses.createQuery("From Tx tx").list().forEach(t->System.out.println(t));
 		
 		//One to One relation
-//		Customer cust=new Customer("Kruthik",23);
+//		Customer cust=new Customer("Gagana",23);
 //		ses.save(cust);
 //		Address addr=new Address("Kengeri","Banglore",560059);
 //		addr.setCustomer(cust);
@@ -102,9 +102,9 @@ public class HibernateClient {
 //		acc1.addTx(tx5);
 //		
 //		//Many to Many
-//		Customer cus1=new Customer("Gagan",24);
+//		Customer cus1=new Customer("Gagana",24);
 //		Address addr1=new Address("JP nagar","Banglore",560070);
-//		Customer cus2=new Customer("Kalasa",23);
+//		Customer cus2=new Customer("Gagan",23);
 //		Address addr2=new Address("Naampalli","Hyderabad",500080);
 //		
 //		ses.persist(cus1);
