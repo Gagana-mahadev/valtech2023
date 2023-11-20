@@ -9,6 +9,75 @@
 <meta charset="UTF-8">
 <title>List of All Employees</title>
 </head>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+ 
+        h1 {
+            color: #333;
+        }
+ 
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+ 
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+ 
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+ 
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+ 
+        tfoot {
+            background-color: #4CAF50;
+            color: white;
+        }
+ 
+        tfoot td {
+            padding: 15px;
+            text-align: right;
+        }
+ 
+        form {
+            display: inline-block;
+        }
+ 
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+ 
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+ 
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+ 
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 <body>
 	<h1>List of Employees</h1>
 	<%
