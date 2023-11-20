@@ -27,11 +27,11 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@PostConstruct
 	public void populateEmployee() {
 		
-		Employee emp = new Employee("Dhanush",21,1,1,45000);
-		Employee emp1 = new Employee("Puneeth",20,1,1,45000);
-		Employee emp2 = new Employee("Kruthik",22,1,1,45000);
-		Employee emp3 = new Employee("Murali",20,1,1,45000);
-		Employee emp4 = new Employee("Akhil",22,1,1,45000);
+		Employee emp = new Employee("Gagana",21,1,1,45000);
+		Employee emp1 = new Employee("Ram",20,1,1,45000);
+		Employee emp2 = new Employee("Aishu",22,1,1,45000);
+		Employee emp3 = new Employee("Pavana",20,1,1,45000);
+		Employee emp4 = new Employee("Nayana",22,1,1,45000);
 		
 		Department dep = new Department("HR","Bangalore");
 		Department dep1 = new Department("Manager","Bangalore");
